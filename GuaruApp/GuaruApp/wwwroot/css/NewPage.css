@@ -1,0 +1,132 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+h1 {
+    font-family: 'MuseoModerno';
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-size: cover;
+    background-color: #DBDBDB;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'MuseoModerno';
+    font-size: 70px;
+    color: white;
+}
+
+.text-box {
+    background-color: white; /* Fundo branco */
+    padding: 20px; /* Espaçamento interno */
+    margin: 20px auto; /* Margem superior/inferior de 20px e centralização horizontal */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2.1); /* Sombra para dar destaque */
+    max-width: 1000px;
+    height: 190px; /* Largura máxima da caixa */
+    text-align: ; /* Centralizar texto dentro da caixa */
+}
+
+    .text-box p {
+        width: 670px;
+        margin-left: 300px;
+        margin-top: -210px;
+        margin-bottom: 70px;
+        font-family: Arial;
+        font-size: 20px; /* Tamanho do texto */
+        /* Espaçamento inferior dos parágrafos */
+        color: black; /* Cor do texto */
+    }
+
+.content-wrapper {
+    display: flex;
+    margin-top: -150px;
+    align-items: start; /* Alinha a imagem e o texto verticalmente ao centro */
+}
+
+.imagem-text-box {
+    margin-top: -20px;
+    margin-left: -100px;
+    max-width: 550px; /* Defina uma largura máxima para a imagem */
+    height: 230px; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Arredonda as bordas da imagem */
+    margin-left: -20px; /* Espaçamento à direita da imagem */
+}
+
+.text-content {
+    flex: 1; /* Permite que o conteúdo do texto ocupe o restante do espaço disponível */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.header {
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+
+.logo {
+    max-height: 40px; /* Ajuste conforme necessário */
+    width: auto;
+}
+
+.navbar-menu {
+    font-size: 1.5em;
+    color: #fff;
+    cursor: pointer;
+}
+
+.divider {
+    border: 0;
+    height: 3px;
+    background-color: back;
+    background: #ccc;
+    margin-top: 40px;
+}
+
+.button-wrapper {
+    text-align: left;
+    margin-left: 335px;
+    margin-top: -50px;
+}
+
+.custom-button {
+    font-family: Arial;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: #007CEF;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Remove o sublinhado */
+    cursor: pointer;
+}
